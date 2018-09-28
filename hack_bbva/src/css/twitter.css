@@ -1,0 +1,77 @@
+#twitter .alignText{
+    text-align:center;
+    display: block;
+}
+
+#twitter .bigSize{
+    font-size: 19px;
+}
+
+#twitter .alternative{
+    transform: rotateZ(45deg)!important;
+}
+
+#twitter .abcRioButton {
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: background-color .218s,border-color .218s,box-shadow .218s;
+    transition: background-color .218s,border-color .218s,box-shadow .218s;
+    -webkit-user-select: none;
+    -webkit-appearance: none;
+    background-color: #fff;
+    background-image: none;
+    color: #262626;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: auto;
+}
+
+#twitter .abcRioButtonBlue:hover {
+    background-color: #1da1f2;
+    -webkit-box-shadow: 0 0 3px 3px rgba(66,133,244,.3);
+    box-shadow: 0 0 3px 3px rgba(66,133,244,.3);
+}
+
+#twitter .abcRioButtonBlue {
+    background-color: #1da1f2;
+    border: none;
+    color: #fff;
+}
+
+#twitter .abcRioButtonBlue .abcRioButtonContentWrapper {
+    border: 1px solid transparent;
+    height: 100%;
+    width: 100%;
+}
+
+#twitter .abcRioButtonBlue .abcRioButtonContentWrapper .abcRioButtonIcon {
+    width: 47px;
+    height: 47px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    padding: 7px;
+    float: left;
+}
+
+#twitter .abcRioButtonBlue .abcRioButtonContentWrapper .abcRioButtonIcon .image_logo{
+    margin-bottom: 4px;
+}
+
+#twitter .abcRioButtonBlue .abcRioButtonContentWrapper .abcRioButtonContents {
+    font-family: Roboto,arial,sans-serif;
+    font-weight: 500;
+    letter-spacing: .21px;
+    margin-left: 6px;
+    margin-right: 6px;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 48px;
+}
